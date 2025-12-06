@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import MainLayout from '@/layouts/MainLayout.vue';
-import Login from '@/pages/layouts/auth/Login.vue';
-import Dashboard from '@/pages/Dashboard.vue';
-import PreOpQuestionnaire from '@/pages/PreOpQuestionnaire.vue';
-import RiskScore from '@/pages/RiskScore.vue';
-import RiskMap from '@/pages/RiskMap.vue';
-import Profile from '@/pages/Profile.vue';
-import Settings from '@/pages/Settings.vue';
-import NotFound from '@/pages/NotFound.vue';
+import MainLayout from '../layouts/MainLayout.vue';
+import Login from '../pages/auth/Login.vue';
+import Dashboard from '../pages/Dashboard.vue';
+import PreOpQuestionnaire from '../pages/PreOpQuestionnaire.vue';
+import RiskScore from '../pages/RiskScore.vue';
+import RiskMap from '../pages/RiskMap.vue';
+import Profile from '../pages/Profile.vue';
+import Settings from '../pages/Settings.vue';
+import NotFound from '../pages/NotFound.vue';
 
 const routes = [
   {
